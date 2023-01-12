@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #212529;
+  color: #f1f5f9;
+}
+
+.btn {
+  background-color: #4dff91;
+  border: none;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  transition: 0.15s;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+input {
+  background-color: #212529;
+  border: 2px solid #666;
+  border-radius: 0.5rem;
+  color: #f1f5f9;
+  display: block;
+  font-size: 1.75rem;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: end;
+  width: 100%;
+}
+
+.error {
+  background-color: #ff0043;
+}
+
+.success {
+  border-color: #4dff91 !important;
+  color: #4dff91 !important;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 0 1.5rem 2.5rem;
+  position: relative;
+  border: 0.25rem solid #212529;
+}
+main header {
+  padding: 0.5rem 0;
+}
+main header #themeSwitcher {
+  padding: 0.25rem;
+  background-color: #212529;
+  border: 0.125rem solid #f1f5f9;
+  border-radius: 100%;
+  color: #f1f5f9;
+  font-size: 1.5rem;
+}
+main header #themeSwitcher:hover {
+  cursor: pointer;
+}
+main #keys {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+main #keys button {
+  color: #212529;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+main #keys button:hover {
+  filter: brightness(0.8);
+}
+main section #copyToClipboard {
+  background-color: #212529;
+  border: solid #666;
+  border-width: 2px;
+  border-radius: 0.5rem 0 0 0.5rem;
+  color: #f1f5f9;
+  cursor: pointer;
+  display: block;
+  height: 4.25rem;
+  width: 6rem;
+}
+main section #result {
+  border-width: 2px 2px 2px 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+/*# sourceMappingURL=style.css.map */
